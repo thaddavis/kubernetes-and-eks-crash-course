@@ -1,120 +1,144 @@
 {
-    "StackResourceSummaries": [
+    "StackResources": [
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "ControlPlaneSecurityGroup",
-            "PhysicalResourceId": "sg-0092b63fb31d0f534",
+            "PhysicalResourceId": "sg-09d24449cafeb2499",
             "ResourceType": "AWS::EC2::SecurityGroup",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:14.378000+00:00",
+            "Timestamp": "2022-08-19T07:25:51.467000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "InternetGateway",
-            "PhysicalResourceId": "igw-0f6d4a14c7c4c962b",
+            "PhysicalResourceId": "igw-0b153826c6327190c",
             "ResourceType": "AWS::EC2::InternetGateway",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:09.304000+00:00",
+            "Timestamp": "2022-08-19T07:25:48.140000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Route",
-            "PhysicalResourceId": "getti-Route-17M31ZRGEL1CD",
+            "PhysicalResourceId": "getti-Route-1KIXT0FMRJ0A6",
             "ResourceType": "AWS::EC2::Route",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:45.053000+00:00",
+            "Timestamp": "2022-08-19T07:26:23.306000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "RouteTable",
-            "PhysicalResourceId": "rtb-020d4be9588404beb",
+            "PhysicalResourceId": "rtb-06674ef7deec74c39",
             "ResourceType": "AWS::EC2::RouteTable",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:22.119000+00:00",
+            "Timestamp": "2022-08-19T07:25:59.778000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Subnet01",
-            "PhysicalResourceId": "subnet-0ec824f83ac1d024b",
+            "PhysicalResourceId": "subnet-02ab7eb28585adca1",
             "ResourceType": "AWS::EC2::Subnet",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:14.949000+00:00",
+            "Timestamp": "2022-08-19T07:25:51.753000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Subnet01RouteTableAssociation",
-            "PhysicalResourceId": "rtbassoc-0f38f1979c8707739",
+            "PhysicalResourceId": "rtbassoc-0cb72c8e00ad92bed",
             "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:27.067000+00:00",
+            "Timestamp": "2022-08-19T07:26:06.744000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Subnet02",
-            "PhysicalResourceId": "subnet-0c04b58c562493a95",
+            "PhysicalResourceId": "subnet-0e1e39f7166376b8d",
             "ResourceType": "AWS::EC2::Subnet",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:14.559000+00:00",
+            "Timestamp": "2022-08-19T07:25:51.675000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Subnet02RouteTableAssociation",
-            "PhysicalResourceId": "rtbassoc-05f9ac9e6a21ee11b",
+            "PhysicalResourceId": "rtbassoc-0ac733f5a5eb566f9",
             "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:27.012000+00:00",
+            "Timestamp": "2022-08-19T07:26:05.695000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Subnet03",
-            "PhysicalResourceId": "subnet-02545f545bdd274b4",
+            "PhysicalResourceId": "subnet-0f09151e6951f6a01",
             "ResourceType": "AWS::EC2::Subnet",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:15.745000+00:00",
+            "Timestamp": "2022-08-19T07:25:51.689000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "Subnet03RouteTableAssociation",
-            "PhysicalResourceId": "rtbassoc-0bc243076e2f13f79",
+            "PhysicalResourceId": "rtbassoc-0c7324ab7c77e1592",
             "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:27.145000+00:00",
+            "Timestamp": "2022-08-19T07:26:06.394000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "VPC",
-            "PhysicalResourceId": "vpc-068bfec4f8bd3857c",
+            "PhysicalResourceId": "vpc-0d8c4b0f8ac87e7ee",
             "ResourceType": "AWS::EC2::VPC",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:06.528000+00:00",
+            "Timestamp": "2022-08-19T07:25:43.742000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
             }
         },
         {
+            "StackName": "getting-started-eks",
+            "StackId": "arn:aws:cloudformation:us-east-1:333427308013:stack/getting-started-eks/117e6080-1f90-11ed-ba40-122e155993f5",
             "LogicalResourceId": "VPCGatewayAttachment",
-            "PhysicalResourceId": "getti-VPCGa-1IRYIJD130E39",
+            "PhysicalResourceId": "getti-VPCGa-17OYQNYUL1GKS",
             "ResourceType": "AWS::EC2::VPCGatewayAttachment",
-            "LastUpdatedTimestamp": "2022-08-18T11:50:27.344000+00:00",
+            "Timestamp": "2022-08-19T07:26:05.695000+00:00",
             "ResourceStatus": "CREATE_COMPLETE",
             "DriftInformation": {
                 "StackResourceDriftStatus": "NOT_CHECKED"
